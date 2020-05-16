@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat May 16 20:48:35 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>90 seconds (90998 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, userName, Text Field, xpath, //input[@id='username'], xpath, //input[@id='username' or @type='email' ]</td>
+<td></td>
+<td>3</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, password, Text Field, xpath, //input[@id='password'], xpath, //input[@id='password' or @type='password' ]</td>
+<td></td>
+<td>3</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, logIn, Button, xpath, //input[@id='Login'], xpath, //input[@id='Login' or @type='submit' ]</td>
+<td></td>
+<td>3</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, rememberMe, Checkbox, xpath, //input[@id='rememberUn'], xpath, //input[@id='rememberUn' or @name='rememberUn' ]</td>
+<td></td>
+<td>3</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, forgotYourPassword, Link, xpath, //a[@id='forgot_password_link'], xpath, //a[@id='forgot_password_link' or text()='Forgot Your Password?' ]</td>
+<td></td>
+<td>4</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, useCustomDomain, Link, xpath, //a[@id='mydomainLink'], xpath, //a[@id='mydomainLink' or  text()='Use Custom Domain']</td>
+<td></td>
+<td>4</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, tryForFree, Button, xpath, //a[text()='Try for Free'], xpath, //a[text()='Try for Free' or @id='signup_link']</td>
+<td></td>
+<td>3</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, privacy, Link, xpath, //a[text()='Privacy'], xpath, //a[text()='Privacy' or @id='privacy-link']</td>
+<td></td>
+<td>3</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, forgetYourPassword, Link, id, forgot_password_link, xpath, //a[text()='Forgot Your Password?']</td>
+<td></td>
+<td>3</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: ForgotYourPasswordPage, userName, Text Field, xpath, //input[@id='un'], xpath, //div[@class='verifyform']/input[@id='un']</td>
+<td></td>
+<td>3</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: ForgotYourPasswordPage, continue, Button, xpath, //input[@id='continue'], xpath, //input[@id='continue' or @name='continue' ]</td>
+<td></td>
+<td>3</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: ForgotYourPasswordPage, cancel, Button, xpath, //a[text()='Cancel'], xpath, //div[@class="verifyform"]/ a[text()='Cancel']</td>
+<td></td>
+<td>3</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: ForgotYourPasswordPage, returnToLogin, Button, xpath, //a[text()='Return to Login'], xpath, //div[@class='message']/following-sibling::a[text()='Return to Login']</td>
+<td></td>
+<td>4</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: FreeTrial, firstName, Text Field, xpath, //input[@name='UserFirstName'], xpath, //div[@class='field valid']/input[@name='UserFirstName' ]</td>
+<td></td>
+<td>4</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: FreeTrial, lastName, Text Field, xpath, //input[@name='UserLastName'], xpath, //div[@class='field valid']/input[@name='UserLastName']</td>
+<td></td>
+<td>4</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: FreeTrial, email, Text Field, xpath, //input[@name='UserEmail'], xpath, //div[@class='field valid']/input[@name='UserEmail']</td>
+<td></td>
+<td>4</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: FreeTrial, jobTitle, Text Field, xpath, //input[@name='UserTitle'], xpath, //div[@class='field valid']/input[@name='UserTitle']</td>
+<td></td>
+<td>3</td>
+<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+</table><p>
+</body>
+</html>
