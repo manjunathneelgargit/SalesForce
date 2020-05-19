@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>48/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat May 16 20:48:35 IST 2020</td>
+<td>Started on:</td><td>Tue May 19 16:54:11 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>90 seconds (90998 ms)</td>
+<tr><td>Total time:</td><td>768 seconds (768555 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,374 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Rename, ListName, Text Field, xpath, //label[text()='List Name']/following::input[@name='title'], xpath, //label[text()='List Name']/following-sibling::div/input</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),&apos;Element&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TYSS-ELF-MANJUN&apos;, ip: &apos;192.168.43.96&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at createPageAndAddElements.CreatePageAndElements.addingElements(CreatePageAndElements.java:117)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace403740863", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace403740863'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),&apos;Element&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TYSS-ELF-MANJUN&apos;, ip: &apos;192.168.43.96&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at createPageAndAddElements.CreatePageAndElements.addingElements(CreatePageAndElements.java:117)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>21</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Rename, ListAPIName, Text Field, xpath, //label[text()='List API Name']/following::input[@class='slds-input'], xpath, //label[text()='List API Name']/following-sibling::div/input</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),&apos;Element&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TYSS-ELF-MANJUN&apos;, ip: &apos;192.168.43.96&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at createPageAndAddElements.CreatePageAndElements.addingElements(CreatePageAndElements.java:117)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace522796215", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace522796215'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),&apos;Element&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TYSS-ELF-MANJUN&apos;, ip: &apos;192.168.43.96&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at createPageAndAddElements.CreatePageAndElements.addingElements(CreatePageAndElements.java:117)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>20</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Rename, Save, Button, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Save'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Save']</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),&apos;Element&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TYSS-ELF-MANJUN&apos;, ip: &apos;192.168.43.96&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at createPageAndAddElements.CreatePageAndElements.addingElements(CreatePageAndElements.java:117)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1792121033", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1792121033'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),&apos;Element&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TYSS-ELF-MANJUN&apos;, ip: &apos;192.168.43.96&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at createPageAndAddElements.CreatePageAndElements.addingElements(CreatePageAndElements.java:117)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>20</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Rename, Cancel, Button, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Cancel'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Cancel']</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),&apos;Element&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TYSS-ELF-MANJUN&apos;, ip: &apos;192.168.43.96&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at createPageAndAddElements.CreatePageAndElements.addingElements(CreatePageAndElements.java:117)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace402180822", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace402180822'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),&apos;Element&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TYSS-ELF-MANJUN&apos;, ip: &apos;192.168.43.96&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at createPageAndAddElements.CreatePageAndElements.addingElements(CreatePageAndElements.java:117)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>20</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Rename, CloseThisWindow, Button, xpath, //button[@title='Close this window'], xpath, //div[@class='modal-header slds-modal__header']/descendant::button</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),&apos;Element&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TYSS-ELF-MANJUN&apos;, ip: &apos;192.168.43.96&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at createPageAndAddElements.CreatePageAndElements.addingElements(CreatePageAndElements.java:117)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1200408049", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1200408049'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),&apos;Element&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TYSS-ELF-MANJUN&apos;, ip: &apos;192.168.43.96&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at createPageAndAddElements.CreatePageAndElements.addingElements(CreatePageAndElements.java:117)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>20</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,90 +443,245 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, userName, Text Field, xpath, //input[@id='username'], xpath, //input[@id='username' or @type='email' ]</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: NewAccount, AddressSearch, EnterAddress, Text Field, xpath, //input[@placeholder='Enter address'], xpath, //div[@data-aura-class='uiInput uiAutocomplete uiInput--default uiInput--lookup']</td>
 <td></td>
-<td>3</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>8</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, password, Text Field, xpath, //input[@id='password'], xpath, //input[@id='password' or @type='password' ]</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Accounts, ListViewControls1, New, Option, xpath, //span[text()='New'], xpath, //span[text()='New']/parent::a</td>
 <td></td>
-<td>3</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>32</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, logIn, Button, xpath, //input[@id='Login'], xpath, //input[@id='Login' or @type='submit' ]</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Accounts, ListViewControls1, Clone, Option, xpath, //span[text()='Clone'], xpath, //span[text()='Clone']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
 <td></td>
-<td>3</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>7</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, rememberMe, Checkbox, xpath, //input[@id='rememberUn'], xpath, //input[@id='rememberUn' or @name='rememberUn' ]</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Accounts, ListViewControls1, Rename, Option, xpath, //span[text()='Rename'], xpath, //span[text()='Rename']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
 <td></td>
-<td>3</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>8</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, forgotYourPassword, Link, xpath, //a[@id='forgot_password_link'], xpath, //a[@id='forgot_password_link' or text()='Forgot Your Password?' ]</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Accounts, ListViewControls1, SharingSettings, Option, xpath, //span[text()='Sharing Settings'], xpath, //span[text()='Sharing Settings']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
 <td></td>
-<td>4</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>8</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, useCustomDomain, Link, xpath, //a[@id='mydomainLink'], xpath, //a[@id='mydomainLink' or  text()='Use Custom Domain']</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Accounts, ListViewControls1, EditListFilters, Option, xpath, //span[text()='Edit List Filters'], xpath, //span[text()='Edit List Filters']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
 <td></td>
-<td>4</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>8</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, tryForFree, Button, xpath, //a[text()='Try for Free'], xpath, //a[text()='Try for Free' or @id='signup_link']</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Accounts, ListViewControls1, SelectFieldToDisplay, Option, xpath, //span[text()='Select Fields to Display'], xpath, //span[text()='Select Fields to Display']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
 <td></td>
-<td>3</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>8</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, privacy, Link, xpath, //a[text()='Privacy'], xpath, //a[text()='Privacy' or @id='privacy-link']</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Accounts, ListViewControls1, Delete, Option, xpath, //span[text()='Delete'], xpath, //span[text()='Delete']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
 <td></td>
-<td>3</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>8</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Login1, forgetYourPassword, Link, id, forgot_password_link, xpath, //a[text()='Forgot Your Password?']</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Accounts, ListViewControls1, ResetColumnWidths, Option, xpath, //span[text()='Reset Column Widths'], xpath, //span[text()='Reset Column Widths']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
 <td></td>
-<td>3</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>9</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: ForgotYourPasswordPage, userName, Text Field, xpath, //input[@id='un'], xpath, //div[@class='verifyform']/input[@id='un']</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, NewListView, ListName, Text Field, xpath, //label[text()='List Name']/following::input[@name='title'], xpath, //label[text()='List Name']/following-sibling::div/input</td>
 <td></td>
-<td>3</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>32</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: ForgotYourPasswordPage, continue, Button, xpath, //input[@id='continue'], xpath, //input[@id='continue' or @name='continue' ]</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, NewListView, ListAPIName, Text Field, xpath, //label[text()='List API Name']/following::input[@class='slds-input'], xpath, //label[text()='List API Name']/following-sibling::div/input</td>
 <td></td>
-<td>3</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>8</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: ForgotYourPasswordPage, cancel, Button, xpath, //a[text()='Cancel'], xpath, //div[@class="verifyform"]/ a[text()='Cancel']</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, NewListView, OnlyICanSeeThisListView, Radio, xpath, //span[text()='Only I can see this list view']/ancestor::label/span[@class='slds-radio_faux'], xpath, //span[text()='Only I can see this list view']/parent::label/span[@class='slds-radio_faux']</td>
 <td></td>
-<td>3</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>9</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: ForgotYourPasswordPage, returnToLogin, Button, xpath, //a[text()='Return to Login'], xpath, //div[@class='message']/following-sibling::a[text()='Return to Login']</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, NewListView, AllUsersCanSeeThisListView, Radio, xpath, //span[text()='All users can see this list view']/ancestor::label[@class='slds-radio__label']/descendant::span[@class='slds-radio_faux'], xpath, //span[text()='All users can see this list view']/parent::label/span[@class='slds-radio_faux']</td>
 <td></td>
-<td>4</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>10</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: FreeTrial, firstName, Text Field, xpath, //input[@name='UserFirstName'], xpath, //div[@class='field valid']/input[@name='UserFirstName' ]</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, NewListView, Cancel, Button, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Cancel'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Cancel']</td>
 <td></td>
-<td>4</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>9</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: FreeTrial, lastName, Text Field, xpath, //input[@name='UserLastName'], xpath, //div[@class='field valid']/input[@name='UserLastName']</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, NewListView, Save, Button, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Save'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Save']</td>
 <td></td>
-<td>4</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>9</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: FreeTrial, email, Text Field, xpath, //input[@name='UserEmail'], xpath, //div[@class='field valid']/input[@name='UserEmail']</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, NewListView, CloseThisWindow, Button, xpath, //button[@title='Close this window'], xpath, //div[@class='modal-header slds-modal__header']/descendant::button</td>
 <td></td>
-<td>4</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>8</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 <tr>
-<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: FreeTrial, jobTitle, Text Field, xpath, //input[@name='UserTitle'], xpath, //div[@class='field valid']/input[@name='UserTitle']</td>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, CloneListView, ListName, Text Field, xpath, //label[text()='List Name']/following::input[@name='title'], xpath, //label[text()='List Name']/following-sibling::div/input</td>
 <td></td>
-<td>3</td>
-<td>com.WebElement.AddWebElement.AddWebElement@f381794</td></tr>
+<td>33</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, CloneListView, ListAPIName, Text Field, xpath, //label[text()='List API Name']/following::input[@class='slds-input'], xpath, //label[text()='List API Name']/following-sibling::div/input</td>
+<td></td>
+<td>8</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, CloneListView, OnlyICanSeeThisListView, Radio, xpath, //span[text()='Only I can see this list view']/ancestor::label/span[@class='slds-radio_faux'], xpath, //span[text()='Only I can see this list view']/parent::label/span[@class='slds-radio_faux']</td>
+<td></td>
+<td>9</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, CloneListView, AllUsersCanSeeThisListView, Radio, xpath, //span[text()='All users can see this list view']/ancestor::label[@class='slds-radio__label']/descendant::span[@class='slds-radio_faux'], xpath, //span[text()='All users can see this list view']/parent::label/span[@class='slds-radio_faux']</td>
+<td></td>
+<td>10</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, CloneListView, Cancel, Button, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Cancel'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Cancel']</td>
+<td></td>
+<td>9</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, CloneListView, Save, Button, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Save'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Save']</td>
+<td></td>
+<td>8</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, CloneListView, CloseThisWindow, Button, xpath, //button[@title='Close this window'], xpath, //div[@class='modal-header slds-modal__header']/descendant::button</td>
+<td></td>
+<td>7</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, SharingSettings1, OnlyICanSeeThisListView, Radio, xpath, //span[text()='Only I can see this list view']/ancestor::label/span[@class='slds-radio_faux'], xpath, //span[text()='Only I can see this list view']/parent::label/span[@class='slds-radio_faux']</td>
+<td></td>
+<td>35</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, SharingSettings1, AllUsersCanSeeThisListView, Radio, xpath, //span[text()='All users can see this list view']/ancestor::label[@class='slds-radio__label']/descendant::span[@class='slds-radio_faux'], xpath, //span[text()='All users can see this list view']/parent::label/span[@class='slds-radio_faux']</td>
+<td></td>
+<td>10</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, SharingSettings1, Save, Button, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Save'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Save']</td>
+<td></td>
+<td>9</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, SharingSettings1, Cancel, Button, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Cancel'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Cancel']</td>
+<td></td>
+<td>9</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, SharingSettings1, CloseThisWindow, Button, xpath, //button[@title='Close this window'], xpath, //div[@class='modal-header slds-modal__header']/descendant::button</td>
+<td></td>
+<td>7</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Filters1, AddFilter, Link, xpath, //a[text()='Add Filter'], xpath, //div[@class='addFilterRemoveAll']/a[text()='Add Filter']</td>
+<td></td>
+<td>32</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Filters1, RemoveAll, Link, xpath, //a[text()='Remove All'], xpath, //a[@class='removeAll']</td>
+<td></td>
+<td>6</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Filters1, CloseFilter, Link, xpath, //button[@title='Close Filters'], xpath, //h2[text()='Filters']/following-sibling::button[@title='Close Filters']</td>
+<td></td>
+<td>8</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Filters1, AddFilter1, Field, Dropdown, xpath, //label[text()='Field']/parent::lightning-combobox//div[@aria-haspopup='listbox'], xpath, //label[text()='Field']/parent::lightning-combobox//div[@role='listbox']</td>
+<td></td>
+<td>33</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Filters1, AddFilter1, Operator, Dropdown, xpath, //label[@class='slds-radio_button__label']/span[text()='False'], xpath, //input[@value='false']/parent::span</td>
+<td></td>
+<td>7</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Filters1, AddFilter1, Value, Text Field, xpath, //span[text()='Value']/parent::label/following-sibling::input, xpath, //span[text()='Value']/parent::label/following-sibling::input[@data-aura-class='uiInput uiInputText uiInput--default uiInput--input']</td>
+<td></td>
+<td>9</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Filters1, AddFilter1, Done, Button, xpath, //span[text()='Done'], xpath, //button[@class='slds-button slds-button--neutral doneButton uiButton']</td>
+<td></td>
+<td>7</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Filters1, AddFilter1, AddFilterLogic, Link, xpath, //a[text()='Add Filter Logic'], xpath, //div[@class='showHideContainer slds-p-bottom--x-small']/a[text()='Add Filter Logic']</td>
+<td></td>
+<td>8</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: AddFilter1, AddFilterLogic1, Remove, Link, xpath, //a[@class='removeFilterLogic'], xpath, //a[text()='Remove']</td>
+<td></td>
+<td>30</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: AddFilter1, AddFilterLogic1, FilterLogic, TextArea, xpath, //label[text()='Filter Logic'], xpath, //span[@class='bodyTitle']</td>
+<td></td>
+<td>7</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, SelectFieldToDisplay1, MoveSelectionToVisibleField, Button, xpath, //button[@title='Move selection to Visible Fields'], xpath, //div[@class='slds-form-element__control']/descendant::button[@title='Move selection to Visible Fields']</td>
+<td></td>
+<td>34</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, SelectFieldToDisplay1, MoveSelectionToAvailableFields, Button, xpath, //button[@title='Move selection to Available Fields'], xpath, //div[@class='slds-form-element__control']/descendant::button[@title='Move selection to Available Fields']</td>
+<td></td>
+<td>9</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, SelectFieldToDisplay1, MoveSelectionUp, Button, xpath, //button[@title='Move selection up'], xpath, //div[@class='slds-form-element__control']/descendant::button[@title='Move selection up']</td>
+<td></td>
+<td>8</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, SelectFieldToDisplay1, MoveSelectionDown, Button, xpath, //button[@title='Move selection down'], xpath, //div[@class='slds-form-element__control']/descendant::button[@title='Move selection down']</td>
+<td></td>
+<td>8</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, SelectFieldToDisplay1, Save, Button, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Save'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Save']</td>
+<td></td>
+<td>9</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, SelectFieldToDisplay1, Cancel, Button, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Cancel'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Cancel']</td>
+<td></td>
+<td>9</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, SelectFieldToDisplay1, CloseThisWindow, Button, xpath, //button[@title='Close this window'], xpath, //div[@class='modal-header slds-modal__header']/descendant::button</td>
+<td></td>
+<td>8</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Delete1, Cancel, Button, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Cancel'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Cancel']</td>
+<td></td>
+<td>34</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Delete1, Delete, Button, xpath, //button[@class='slds-button slds-button--neutral test-confirmButton uiButton--default uiButton--brand uiButton'], xpath, //div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Delete']/parent::button</td>
+<td></td>
+<td>9</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Delete1, CloseThisWindow, Button, xpath, //button[@title='Close this window'], xpath, //div[@class='modal-header slds-modal__header']/descendant::button</td>
+<td></td>
+<td>8</td>
+<td>createPageAndAddElements.CreatePageAndElements@1bce4f0a</td></tr>
 </table><p>
 </body>
 </html>

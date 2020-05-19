@@ -5,7 +5,8 @@ import java.io.FileInputStream;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-public class Sample {
+public class Sample 
+{
 
 	public static void main(String[] args) throws Exception
 	{

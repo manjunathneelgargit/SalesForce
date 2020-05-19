@@ -19,8 +19,11 @@ public class AddWebElement
 {
 	public static GenericLib glib = new GenericLib();
 	public WebDriver driver;
-	public int salesForce = 8;
-	public String page = "Login1";
+	public int salesForce = 8; //project
+	public String page = "Login1"; //main page
+	//Excel related Variables
+	public String excelPath = "./Excel/AddElements.xlsx";
+	public String sheetName = "Home";
 	
 	//public FileLib flib = new FileLib();			
 	//public String sheetName = "Sample";
@@ -45,9 +48,9 @@ public class AddWebElement
 	@DataProvider
 	public Object[][] getExcelDataForGivenPage() throws Exception
 	{
-		FileInputStream ip = new FileInputStream("./Excel/Salesforce.xlsx");
+		FileInputStream ip = new FileInputStream(excelPath);
 		Workbook wb = WorkbookFactory.create(ip);
-		Sheet sh = wb.getSheet("Sample");
+		Sheet sh = wb.getSheet(sheetName);
 
 		int rowNum = sh.getLastRowNum();
 		int cellNum = sh.getRow(1).getLastCellNum();
@@ -84,7 +87,7 @@ public class AddWebElement
 				//Enter Locator value
 				WebElement locatorValue = driver.findElement(By.xpath("(//input[contains(@name,'locatorValue')])["+i+"]"));
 				locatorValue.clear();
-				locatorValue.sendKeys(value2);
+				locatorValue.sendKeys(value1);
 			}
 			
 			else

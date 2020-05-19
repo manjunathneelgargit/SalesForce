@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebElement.AddWebElement.AddWebElement">
+      <class name="createPageAndAddElements.CreatePageAndElements">
         <methods>
-          <include name="addingElements" invocation-numbers="13 14 15 16"/>
           <include name="configBC"/>
+          <include name="addingElements" invocation-numbers="23 24 25 26 27"/>
         </methods>
-      </class> <!-- com.WebElement.AddWebElement.AddWebElement -->
+      </class> <!-- createPageAndAddElements.CreatePageAndElements -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,714 +1,2685 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+<testng-results skipped="0" failed="5" ignored="0" total="53" passed="48">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="90998" started-at="2020-05-16T15:18:35Z" finished-at="2020-05-16T15:20:06Z">
+  <suite name="Default suite" duration-ms="768555" started-at="2020-05-19T11:24:11Z" finished-at="2020-05-19T11:36:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="90998" started-at="2020-05-16T15:18:35Z" finished-at="2020-05-16T15:20:06Z">
-      <class name="com.WebElement.AddWebElement.AddWebElement">
-        <test-method status="PASS" signature="configBC()[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="configBC" is-config="true" duration-ms="23672" started-at="2020-05-16T15:18:35Z" finished-at="2020-05-16T15:18:59Z">
+    <test name="Default test" duration-ms="768555" started-at="2020-05-19T11:24:11Z" finished-at="2020-05-19T11:36:59Z">
+      <class name="createPageAndAddElements.CreatePageAndElements">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="configBC" is-config="true" duration-ms="23257" started-at="2020-05-19T11:24:11Z" finished-at="2020-05-19T11:24:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="3656" started-at="2020-05-16T15:19:01Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:19:05Z">
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="8027" started-at="2020-05-19T11:24:35Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:24:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Login1]]>
+                <![CDATA[NewAccount]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[userName]]>
+                <![CDATA[AddressSearch]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Text Field]]>
+                <![CDATA[EnterAddress]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[Text Field]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[//input[@id='username']]]>
+                <![CDATA[xpath]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[//input[@placeholder='Enter address']]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[//input[@id='username' or @type='email' ]]]>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//div[@data-aura-class='uiInput uiAutocomplete uiInput--default uiInput--lookup']]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingElements -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="3709" started-at="2020-05-16T15:19:05Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:19:09Z">
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="32162" started-at="2020-05-19T11:24:43Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:25:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Login1]]>
+                <![CDATA[Accounts]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[password]]>
+                <![CDATA[ListViewControls1]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Text Field]]>
+                <![CDATA[New]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[Option]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[//input[@id='password']]]>
+                <![CDATA[xpath]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[//span[text()='New']]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[//input[@id='password' or @type='password' ]]]>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='New']/parent::a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingElements -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="3443" started-at="2020-05-16T15:19:09Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:19:12Z">
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="7604" started-at="2020-05-19T11:25:15Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:25:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Login1]]>
+                <![CDATA[Accounts]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[logIn]]>
+                <![CDATA[ListViewControls1]]>
               </value>
             </param>
             <param index="2">
+              <value>
+                <![CDATA[Clone]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Option]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//span[text()='Clone']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Clone']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="8249" started-at="2020-05-19T11:25:23Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accounts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rename]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Option]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//span[text()='Rename']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Rename']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="8704" started-at="2020-05-19T11:25:31Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:25:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accounts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SharingSettings]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Option]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//span[text()='Sharing Settings']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Sharing Settings']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="8819" started-at="2020-05-19T11:25:40Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:25:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accounts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EditListFilters]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Option]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//span[text()='Edit List Filters']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Edit List Filters']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="8822" started-at="2020-05-19T11:25:49Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:25:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accounts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SelectFieldToDisplay]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Option]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//span[text()='Select Fields to Display']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Select Fields to Display']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="8081" started-at="2020-05-19T11:25:57Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:26:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accounts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Option]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//span[text()='Delete']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Delete']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="9202" started-at="2020-05-19T11:26:05Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:26:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accounts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ResetColumnWidths]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Option]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//span[text()='Reset Column Widths']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Reset Column Widths']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="32947" started-at="2020-05-19T11:26:15Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:26:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NewListView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ListName]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Text Field]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//label[text()='List Name']/following::input[@name='title']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//label[text()='List Name']/following-sibling::div/input]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="8480" started-at="2020-05-19T11:26:48Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:26:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NewListView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ListAPIName]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Text Field]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//label[text()='List API Name']/following::input[@class='slds-input']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//label[text()='List API Name']/following-sibling::div/input]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="9418" started-at="2020-05-19T11:26:56Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:27:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NewListView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OnlyICanSeeThisListView]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Radio]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//span[text()='Only I can see this list view']/ancestor::label/span[@class='slds-radio_faux']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Only I can see this list view']/parent::label/span[@class='slds-radio_faux']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="10314" started-at="2020-05-19T11:27:06Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:27:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NewListView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AllUsersCanSeeThisListView]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Radio]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//span[text()='All users can see this list view']/ancestor::label[@class='slds-radio__label']/descendant::span[@class='slds-radio_faux']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='All users can see this list view']/parent::label/span[@class='slds-radio_faux']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="9552" started-at="2020-05-19T11:27:16Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:27:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NewListView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cancel]]>
+              </value>
+            </param>
+            <param index="3">
               <value>
                 <![CDATA[Button]]>
               </value>
             </param>
-            <param index="3">
-              <value>
-                <![CDATA[xpath]]>
-              </value>
-            </param>
             <param index="4">
               <value>
-                <![CDATA[//input[@id='Login']]]>
+                <![CDATA[xpath]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[//div[@class='modal-footer slds-modal__footer']/button/span[text()='Cancel']]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[//input[@id='Login' or @type='submit' ]]]>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Cancel']]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingElements -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="3789" started-at="2020-05-16T15:19:12Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:19:16Z">
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="9190" started-at="2020-05-19T11:27:25Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:27:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Login1]]>
+                <![CDATA[ListViewControls1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[rememberMe]]>
+                <![CDATA[NewListView]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Checkbox]]>
+                <![CDATA[Save]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[Button]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[//input[@id='rememberUn']]]>
+                <![CDATA[xpath]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[//div[@class='modal-footer slds-modal__footer']/button/span[text()='Save']]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[//input[@id='rememberUn' or @name='rememberUn' ]]]>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Save']]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingElements -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="4298" started-at="2020-05-16T15:19:16Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:19:20Z">
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="8166" started-at="2020-05-19T11:27:35Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:27:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Login1]]>
+                <![CDATA[ListViewControls1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[forgotYourPassword]]>
+                <![CDATA[NewListView]]>
               </value>
             </param>
             <param index="2">
+              <value>
+                <![CDATA[CloseThisWindow]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//button[@title='Close this window']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//div[@class='modal-header slds-modal__header']/descendant::button]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="33988" started-at="2020-05-19T11:27:43Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:28:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CloneListView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ListName]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Text Field]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//label[text()='List Name']/following::input[@name='title']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//label[text()='List Name']/following-sibling::div/input]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="8732" started-at="2020-05-19T11:28:17Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:28:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CloneListView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ListAPIName]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Text Field]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//label[text()='List API Name']/following::input[@class='slds-input']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//label[text()='List API Name']/following-sibling::div/input]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="9883" started-at="2020-05-19T11:28:25Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:28:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CloneListView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OnlyICanSeeThisListView]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Radio]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//span[text()='Only I can see this list view']/ancestor::label/span[@class='slds-radio_faux']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Only I can see this list view']/parent::label/span[@class='slds-radio_faux']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="10962" started-at="2020-05-19T11:28:35Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CloneListView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AllUsersCanSeeThisListView]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Radio]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//span[text()='All users can see this list view']/ancestor::label[@class='slds-radio__label']/descendant::span[@class='slds-radio_faux']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='All users can see this list view']/parent::label/span[@class='slds-radio_faux']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="9103" started-at="2020-05-19T11:28:46Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:28:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CloneListView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cancel]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//div[@class='modal-footer slds-modal__footer']/button/span[text()='Cancel']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Cancel']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="8718" started-at="2020-05-19T11:28:55Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:29:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CloneListView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Save]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//div[@class='modal-footer slds-modal__footer']/button/span[text()='Save']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Save']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="7885" started-at="2020-05-19T11:29:04Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:29:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CloneListView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CloseThisWindow]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//button[@title='Close this window']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//div[@class='modal-header slds-modal__header']/descendant::button]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="FAIL" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="21019" started-at="2020-05-19T11:29:12Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:29:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rename]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ListName]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Text Field]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//label[text()='List Name']/following::input[@name='title']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//label[text()='List Name']/following-sibling::div/input]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),'Element')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TYSS-ELF-MANJUN', ip: '192.168.43.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),'Element')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TYSS-ELF-MANJUN', ip: '192.168.43.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at createPageAndAddElements.CreatePageAndElements.addingElements(CreatePageAndElements.java:117)
+at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="FAIL" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="20667" started-at="2020-05-19T11:29:33Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:29:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rename]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ListAPIName]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Text Field]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//label[text()='List API Name']/following::input[@class='slds-input']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//label[text()='List API Name']/following-sibling::div/input]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),'Element')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TYSS-ELF-MANJUN', ip: '192.168.43.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),'Element')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TYSS-ELF-MANJUN', ip: '192.168.43.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at createPageAndAddElements.CreatePageAndElements.addingElements(CreatePageAndElements.java:117)
+at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="FAIL" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="20668" started-at="2020-05-19T11:29:54Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rename]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Save]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//div[@class='modal-footer slds-modal__footer']/button/span[text()='Save']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Save']]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),'Element')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TYSS-ELF-MANJUN', ip: '192.168.43.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),'Element')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TYSS-ELF-MANJUN', ip: '192.168.43.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at createPageAndAddElements.CreatePageAndElements.addingElements(CreatePageAndElements.java:117)
+at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="FAIL" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="20662" started-at="2020-05-19T11:30:14Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:30:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rename]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cancel]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//div[@class='modal-footer slds-modal__footer']/button/span[text()='Cancel']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Cancel']]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),'Element')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TYSS-ELF-MANJUN', ip: '192.168.43.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),'Element')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TYSS-ELF-MANJUN', ip: '192.168.43.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at createPageAndAddElements.CreatePageAndElements.addingElements(CreatePageAndElements.java:117)
+at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="FAIL" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="20627" started-at="2020-05-19T11:30:35Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rename]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CloseThisWindow]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//button[@title='Close this window']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//div[@class='modal-header slds-modal__header']/descendant::button]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),'Element')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TYSS-ELF-MANJUN', ip: '192.168.43.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),'Element')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TYSS-ELF-MANJUN', ip: '192.168.43.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\MANJUN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e65b474fd9a1171af3d5835c52eae63f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at createPageAndAddElements.CreatePageAndElements.addingElements(CreatePageAndElements.java:117)
+at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="35204" started-at="2020-05-19T11:30:56Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:31:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SharingSettings1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OnlyICanSeeThisListView]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Radio]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//span[text()='Only I can see this list view']/ancestor::label/span[@class='slds-radio_faux']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Only I can see this list view']/parent::label/span[@class='slds-radio_faux']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="10226" started-at="2020-05-19T11:31:31Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SharingSettings1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AllUsersCanSeeThisListView]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Radio]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//span[text()='All users can see this list view']/ancestor::label[@class='slds-radio__label']/descendant::span[@class='slds-radio_faux']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='All users can see this list view']/parent::label/span[@class='slds-radio_faux']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="9261" started-at="2020-05-19T11:31:41Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:31:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SharingSettings1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Save]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//div[@class='modal-footer slds-modal__footer']/button/span[text()='Save']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Save']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="9404" started-at="2020-05-19T11:31:50Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:32:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SharingSettings1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cancel]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//div[@class='modal-footer slds-modal__footer']/button/span[text()='Cancel']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Cancel']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="7859" started-at="2020-05-19T11:32:00Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:32:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SharingSettings1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CloseThisWindow]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//button[@title='Close this window']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//div[@class='modal-header slds-modal__header']/descendant::button]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="32141" started-at="2020-05-19T11:32:08Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:32:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Filters1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AddFilter]]>
+              </value>
+            </param>
+            <param index="3">
               <value>
                 <![CDATA[Link]]>
               </value>
             </param>
-            <param index="3">
-              <value>
-                <![CDATA[xpath]]>
-              </value>
-            </param>
             <param index="4">
               <value>
-                <![CDATA[//a[@id='forgot_password_link']]]>
+                <![CDATA[xpath]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[//a[text()='Add Filter']]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[//a[@id='forgot_password_link' or text()='Forgot Your Password?' ]]]>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//div[@class='addFilterRemoveAll']/a[text()='Add Filter']]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingElements -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="4171" started-at="2020-05-16T15:19:20Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:19:24Z">
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="6318" started-at="2020-05-19T11:32:40Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:32:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Login1]]>
+                <![CDATA[ListViewControls1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[useCustomDomain]]>
+                <![CDATA[Filters1]]>
               </value>
             </param>
             <param index="2">
+              <value>
+                <![CDATA[RemoveAll]]>
+              </value>
+            </param>
+            <param index="3">
               <value>
                 <![CDATA[Link]]>
               </value>
             </param>
-            <param index="3">
-              <value>
-                <![CDATA[xpath]]>
-              </value>
-            </param>
             <param index="4">
               <value>
-                <![CDATA[//a[@id='mydomainLink']]]>
+                <![CDATA[xpath]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[//a[text()='Remove All']]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[//a[@id='mydomainLink' or  text()='Use Custom Domain']]]>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//a[@class='removeAll']]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingElements -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="3364" started-at="2020-05-16T15:19:24Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:19:28Z">
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="8204" started-at="2020-05-19T11:32:46Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:32:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Login1]]>
+                <![CDATA[ListViewControls1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[tryForFree]]>
+                <![CDATA[Filters1]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Button]]>
+                <![CDATA[CloseFilter]]>
               </value>
             </param>
             <param index="3">
-              <value>
-                <![CDATA[xpath]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[//a[text()='Try for Free']]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[xpath]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[//a[text()='Try for Free' or @id='signup_link']]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addingElements -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="3461" started-at="2020-05-16T15:19:28Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:19:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Login1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[privacy]]>
-              </value>
-            </param>
-            <param index="2">
               <value>
                 <![CDATA[Link]]>
               </value>
             </param>
-            <param index="3">
-              <value>
-                <![CDATA[xpath]]>
-              </value>
-            </param>
             <param index="4">
               <value>
-                <![CDATA[//a[text()='Privacy']]]>
+                <![CDATA[xpath]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[//button[@title='Close Filters']]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[//a[text()='Privacy' or @id='privacy-link']]]>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//h2[text()='Filters']/following-sibling::button[@title='Close Filters']]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingElements -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="3097" started-at="2020-05-16T15:19:31Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:19:34Z">
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="33407" started-at="2020-05-19T11:32:54Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:33:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Login1]]>
+                <![CDATA[Filters1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[forgetYourPassword]]>
+                <![CDATA[AddFilter1]]>
               </value>
             </param>
             <param index="2">
+              <value>
+                <![CDATA[Field]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dropdown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//label[text()='Field']/parent::lightning-combobox//div[@aria-haspopup='listbox']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//label[text()='Field']/parent::lightning-combobox//div[@role='listbox']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="7402" started-at="2020-05-19T11:33:28Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:33:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Filters1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AddFilter1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Operator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dropdown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//label[@class='slds-radio_button__label']/span[text()='False']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//input[@value='false']/parent::span]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="9596" started-at="2020-05-19T11:33:35Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:33:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Filters1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AddFilter1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Value]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Text Field]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//span[text()='Value']/parent::label/following-sibling::input]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Value']/parent::label/following-sibling::input[@data-aura-class='uiInput uiInputText uiInput--default uiInput--input']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="7608" started-at="2020-05-19T11:33:45Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:33:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Filters1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AddFilter1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Done]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//span[text()='Done']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//button[@class='slds-button slds-button--neutral doneButton uiButton']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="8348" started-at="2020-05-19T11:33:52Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:34:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Filters1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AddFilter1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AddFilterLogic]]>
+              </value>
+            </param>
+            <param index="3">
               <value>
                 <![CDATA[Link]]>
               </value>
             </param>
-            <param index="3">
-              <value>
-                <![CDATA[id]]>
-              </value>
-            </param>
             <param index="4">
-              <value>
-                <![CDATA[forgot_password_link]]>
-              </value>
-            </param>
-            <param index="5">
               <value>
                 <![CDATA[xpath]]>
               </value>
             </param>
+            <param index="5">
+              <value>
+                <![CDATA[//a[text()='Add Filter Logic']]]>
+              </value>
+            </param>
             <param index="6">
               <value>
-                <![CDATA[//a[text()='Forgot Your Password?']]]>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//div[@class='showHideContainer slds-p-bottom--x-small']/a[text()='Add Filter Logic']]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingElements -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="3537" started-at="2020-05-16T15:19:34Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:19:38Z">
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="30986" started-at="2020-05-19T11:34:01Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:34:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ForgotYourPasswordPage]]>
+                <![CDATA[AddFilter1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[userName]]>
+                <![CDATA[AddFilterLogic1]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Text Field]]>
+                <![CDATA[Remove]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[Link]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[//input[@id='un']]]>
+                <![CDATA[xpath]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[//a[@class='removeFilterLogic']]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[//div[@class='verifyform']/input[@id='un']]]>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//a[text()='Remove']]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingElements -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="3737" started-at="2020-05-16T15:19:38Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:19:42Z">
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="7257" started-at="2020-05-19T11:34:32Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:34:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ForgotYourPasswordPage]]>
+                <![CDATA[AddFilter1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[continue]]>
+                <![CDATA[AddFilterLogic1]]>
               </value>
             </param>
             <param index="2">
+              <value>
+                <![CDATA[FilterLogic]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TextArea]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//label[text()='Filter Logic']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[@class='bodyTitle']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="34205" started-at="2020-05-19T11:34:39Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:35:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SelectFieldToDisplay1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MoveSelectionToVisibleField]]>
+              </value>
+            </param>
+            <param index="3">
               <value>
                 <![CDATA[Button]]>
               </value>
             </param>
-            <param index="3">
-              <value>
-                <![CDATA[xpath]]>
-              </value>
-            </param>
             <param index="4">
               <value>
-                <![CDATA[//input[@id='continue']]]>
+                <![CDATA[xpath]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[//button[@title='Move selection to Visible Fields']]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[//input[@id='continue' or @name='continue' ]]]>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//div[@class='slds-form-element__control']/descendant::button[@title='Move selection to Visible Fields']]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingElements -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="3844" started-at="2020-05-16T15:19:42Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:19:45Z">
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="9505" started-at="2020-05-19T11:35:13Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:35:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ForgotYourPasswordPage]]>
+                <![CDATA[ListViewControls1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[cancel]]>
+                <![CDATA[SelectFieldToDisplay1]]>
               </value>
             </param>
             <param index="2">
+              <value>
+                <![CDATA[MoveSelectionToAvailableFields]]>
+              </value>
+            </param>
+            <param index="3">
               <value>
                 <![CDATA[Button]]>
               </value>
             </param>
-            <param index="3">
-              <value>
-                <![CDATA[xpath]]>
-              </value>
-            </param>
             <param index="4">
               <value>
-                <![CDATA[//a[text()='Cancel']]]>
+                <![CDATA[xpath]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[//button[@title='Move selection to Available Fields']]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[//div[@class="verifyform"]/ a[text()='Cancel']]]>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//div[@class='slds-form-element__control']/descendant::button[@title='Move selection to Available Fields']]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingElements -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="4642" started-at="2020-05-16T15:19:45Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:19:50Z">
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="8722" started-at="2020-05-19T11:35:23Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:35:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ForgotYourPasswordPage]]>
+                <![CDATA[ListViewControls1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[returnToLogin]]>
+                <![CDATA[SelectFieldToDisplay1]]>
               </value>
             </param>
             <param index="2">
+              <value>
+                <![CDATA[MoveSelectionUp]]>
+              </value>
+            </param>
+            <param index="3">
               <value>
                 <![CDATA[Button]]>
               </value>
             </param>
-            <param index="3">
-              <value>
-                <![CDATA[xpath]]>
-              </value>
-            </param>
             <param index="4">
               <value>
-                <![CDATA[//a[text()='Return to Login']]]>
+                <![CDATA[xpath]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[//button[@title='Move selection up']]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[//div[@class='message']/following-sibling::a[text()='Return to Login']]]>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//div[@class='slds-form-element__control']/descendant::button[@title='Move selection up']]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingElements -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="4251" started-at="2020-05-16T15:19:50Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:19:54Z">
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="8704" started-at="2020-05-19T11:35:31Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:35:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[FreeTrial]]>
+                <![CDATA[ListViewControls1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[firstName]]>
+                <![CDATA[SelectFieldToDisplay1]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Text Field]]>
+                <![CDATA[MoveSelectionDown]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[Button]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[//input[@name='UserFirstName']]]>
+                <![CDATA[xpath]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[//button[@title='Move selection down']]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[//div[@class='field valid']/input[@name='UserFirstName' ]]]>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//div[@class='slds-form-element__control']/descendant::button[@title='Move selection down']]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingElements -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="4051" started-at="2020-05-16T15:19:54Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:19:58Z">
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="9114" started-at="2020-05-19T11:35:40Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:35:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[FreeTrial]]>
+                <![CDATA[ListViewControls1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[lastName]]>
+                <![CDATA[SelectFieldToDisplay1]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Text Field]]>
+                <![CDATA[Save]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[Button]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[//input[@name='UserLastName']]]>
+                <![CDATA[xpath]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[//div[@class='modal-footer slds-modal__footer']/button/span[text()='Save']]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[//div[@class='field valid']/input[@name='UserLastName']]]>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Save']]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingElements -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="4036" started-at="2020-05-16T15:19:58Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:20:02Z">
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="9255" started-at="2020-05-19T11:35:49Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:35:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[FreeTrial]]>
+                <![CDATA[ListViewControls1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[email]]>
+                <![CDATA[SelectFieldToDisplay1]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Text Field]]>
+                <![CDATA[Cancel]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[Button]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[//input[@name='UserEmail']]]>
+                <![CDATA[xpath]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[//div[@class='modal-footer slds-modal__footer']/button/span[text()='Cancel']]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[//div[@class='field valid']/input[@name='UserEmail']]]>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Cancel']]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingElements -->
-        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@f381794]" name="addingElements" duration-ms="3938" started-at="2020-05-16T15:20:02Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-16T15:20:06Z">
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="8247" started-at="2020-05-19T11:35:58Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:36:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[FreeTrial]]>
+                <![CDATA[ListViewControls1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[jobTitle]]>
+                <![CDATA[SelectFieldToDisplay1]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Text Field]]>
+                <![CDATA[CloseThisWindow]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[Button]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[//input[@name='UserTitle']]]>
+                <![CDATA[xpath]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[xpath]]>
+                <![CDATA[//button[@title='Close this window']]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[//div[@class='field valid']/input[@name='UserTitle']]]>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//div[@class='modal-header slds-modal__header']/descendant::button]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingElements -->
-      </class> <!-- com.WebElement.AddWebElement.AddWebElement -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="34760" started-at="2020-05-19T11:36:07Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:36:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delete1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cancel]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//div[@class='modal-footer slds-modal__footer']/button/span[text()='Cancel']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Cancel']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="9671" started-at="2020-05-19T11:36:41Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:36:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delete1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//button[@class='slds-button slds-button--neutral test-confirmButton uiButton--default uiButton--brand uiButton']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Delete']/parent::button]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:createPageAndAddElements.CreatePageAndElements@1bce4f0a]" name="addingElements" duration-ms="8071" started-at="2020-05-19T11:36:51Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T11:36:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ListViewControls1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delete1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CloseThisWindow]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//button[@title='Close this window']]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[//div[@class='modal-header slds-modal__header']/descendant::button]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+      </class> <!-- createPageAndAddElements.CreatePageAndElements -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
